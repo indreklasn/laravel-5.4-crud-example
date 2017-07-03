@@ -1,5 +1,6 @@
 ![](http://i.imgur.com/uJHSFmu.gif?raw=true)
 
+##### Techstack | PHP 7.1, MariaDB, Laravel 5.4
 
 ## Setup 
 
