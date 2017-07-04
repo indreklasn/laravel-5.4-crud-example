@@ -4,8 +4,11 @@
 @section('content')
 
 <div class="columns">
-		
-		<div class="column is-8 is-offset-2">
+
+
+		<div class="column is-10 is-offset-1">
+			<h1>Editing {{$users->name}} </h1>
+
 			<form action="{{"/users/" . $users->id}}" method="post">
 				
 				{{ csrf_field() }}
@@ -19,7 +22,7 @@
 	
 					<div class="input-field">
 						<label class="field">
-							<input type="text" class="input" name="password" placeholder="password">
+							<input type="password" class="input" name="password" placeholder="password">
 						</label>						
 					</div>
 			
