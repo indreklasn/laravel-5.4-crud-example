@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\User;
 use DB;
+use Hash;
 
 class Users extends Controller
 {
@@ -44,9 +45,11 @@ class Users extends Controller
         $password = $request->input('password');
         $email = $request->input('email');
 
+        $hash_password = Hash::make($password);
+
         User::create([
             'name' => $name,
-            'password' => $password,
+            'password' => $hash_password,
             'email' => $email
         ]);
 
@@ -86,12 +89,15 @@ class Users extends Controller
     {
         
         $name = $request->input('name');
-        $password = $request->input('password');
         $email = $request->input('email');
+
+        $password = $request->input('password');
+
+        $hash_password = Hash::make($password);
 
         User::where('id', $id)->update([
             'name' => $name,
-            'password' => $password,
+            'password' => $hash_password,
             'email' => $email
         ]);
 
