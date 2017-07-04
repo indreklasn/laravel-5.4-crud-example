@@ -1,4 +1,4 @@
-![](http://http://i.imgur.com/TqyuaaR.gif?raw=true)
+![](http://i.imgur.com/TqyuaaR.gif?raw=true)
 
 ##### Techstack | PHP 7.1, MariaDB, Laravel 5.4
 
