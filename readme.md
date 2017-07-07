@@ -9,8 +9,6 @@ $ cp -R .env.example .env
 
 $ npm i && composer install
 
-$ npm i && php artisan serve 
-
 $ php artisan serve
 
 ```
