@@ -3,6 +3,8 @@ indreklasn/laravel-5.4-crud-example is being sponsored by the following tool; pl
 <a href="https://tracking.gitads.io/?repo=indreklasn+laravel-5.4-crud-example">
 <img src="https://images.gitads.io/indreklasn+laravel-5.4-crud-example" alt="GitAds"/> </a>
 
+__________
+
 ![](http://i.imgur.com/TqyuaaR.gif?raw=true)
 
 ##### Techstack | PHP 7.1, MariaDB, Laravel 5.4
