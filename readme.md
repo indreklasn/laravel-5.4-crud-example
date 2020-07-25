@@ -1,7 +1,7 @@
-indreklasn/laravel-5.4-crud-example is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial.
+laravel-5.4-crud-example is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial.
 
-<a href="https://tracking.gitads.io/?repo=indreklasn+laravel-5.4-crud-example">
-<img src="https://images.gitads.io/indreklasn+laravel-5.4-crud-example" alt="GitAds"/> </a>
+<a href="https://tracking.gitads.io/?repo=laravel-5.4-crud-example">
+<img src="https://images.gitads.io/laravel-5.4-crud-example" alt="GitAds"/> </a>
 
 __________
 
